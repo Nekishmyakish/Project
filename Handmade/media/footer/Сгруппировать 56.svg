@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70.941" height="16.98" viewBox="0 0 70.941 16.98">
+  <g id="Сгруппировать_56" data-name="Сгруппировать 56" transform="translate(-767.02 -3965)">
+    <g id="Сгруппировать_43" data-name="Сгруппировать 43" transform="translate(9 -29)">
+      <circle id="Эллипс_20" data-name="Эллипс 20" cx="8.48" cy="8.48" r="8.48" transform="translate(785.02 3994.02)" fill="#c2cacf"/>
+      <text id="f" transform="translate(792.003 4007.017)" fill="#fff" font-size="11" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">f</tspan></text>
+    </g>
+    <g id="Сгруппировать_42" data-name="Сгруппировать 42" transform="translate(-36 -32)">
+      <g id="Прямоугольник_48" data-name="Прямоугольник 48" transform="translate(803.02 3997.02)" fill="none" stroke="#c2cacf" stroke-width="1">
+        <rect width="16.961" height="16.961" rx="3" stroke="none"/>
+        <rect x="0.5" y="0.5" width="15.961" height="15.961" rx="2.5" fill="none"/>
+      </g>
+      <g id="Прямоугольник_49" data-name="Прямоугольник 49" transform="translate(805.969 3999.969)" fill="none" stroke="#c2cacf" stroke-width="1">
+        <rect width="11.061" height="11.061" rx="5.531" stroke="none"/>
+        <rect x="0.5" y="0.5" width="10.061" height="10.061" rx="5.031" fill="none"/>
+      </g>
+      <circle id="Эллипс_19" data-name="Эллипс 19" cx="1.106" cy="1.106" r="1.106" transform="translate(815.556 3998.494)" fill="#c2cacf"/>
+    </g>
+    <g id="Сгруппировать_45" data-name="Сгруппировать 45" transform="translate(35.98 -29.02)">
+      <circle id="Эллипс_20-2" data-name="Эллипс 20" cx="8.48" cy="8.48" r="8.48" transform="translate(785.02 3994.02)" fill="#c2cacf"/>
+    </g>
+    <g id="twitter-logo-silhouette" transform="translate(824.999 3912.559)">
+      <g id="Сгруппировать_44" data-name="Сгруппировать 44" transform="translate(0.001 57.441)">
+        <path id="Контур_7" data-name="Контур 7" d="M9.892,58.392a4.052,4.052,0,0,1-1.165.32,2.037,2.037,0,0,0,.892-1.122,4.09,4.09,0,0,1-1.289.493,2.031,2.031,0,0,0-3.458,1.85A5.761,5.761,0,0,1,.69,57.812a2.031,2.031,0,0,0,.628,2.708A2.029,2.029,0,0,1,.4,60.266v.025a2.031,2.031,0,0,0,1.627,1.99,2.055,2.055,0,0,1-.535.071,1.948,1.948,0,0,1-.382-.038A2.03,2.03,0,0,0,3,63.723a4.071,4.071,0,0,1-2.52.867A4.315,4.315,0,0,1,0,64.563a5.735,5.735,0,0,0,3.11.913A5.733,5.733,0,0,0,8.884,59.7l-.007-.263A4.052,4.052,0,0,0,9.892,58.392Z" transform="translate(-0.001 -57.441)" fill="#f8f8f8"/>
+      </g>
+    </g>
+  </g>
+</svg>
