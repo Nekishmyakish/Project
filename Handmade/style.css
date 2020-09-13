@@ -1,2 +1,29 @@
-*padding: 0px;
-*margin: 0px;
+.upper_buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub_upper_buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ниже селектор. сложнее не будет в дальнейшем */
+.sub_upper_buttons > li { 
+    margin: 15px;
+}
+
+/* ниже медиа-запрос */
+@media only screen and (max-width: 480px) {
+    .upper_buttons {
+        display: block;
+    }
+    
+    .sub_upper_buttons {
+        display: block;
+    }
+
+    body {
+    background-color: green;
+}
+}
