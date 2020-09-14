@@ -1,29 +1,54 @@
 .upper_buttons {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .sub_upper_buttons {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* ниже селектор. сложнее не будет в дальнейшем */
-.sub_upper_buttons > li { 
-    margin: 15px;
+.sub_upper_buttons > li {
+  margin: 15px;
 }
 
 /* ниже медиа-запрос */
 @media only screen and (max-width: 480px) {
-    .upper_buttons {
-        display: block;
-    }
-    
-    .sub_upper_buttons {
-        display: block;
-    }
+  .upper_buttons {
+    display: block;
+  }
 
-    body {
+  .sub_upper_buttons {
+    display: block;
+  }
+
+  body {
     background-color: green;
+  }
 }
+
+/* делал ниже сам */
+.promo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.promo_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sublist_1 {
+  display: block;
+}
+
+.sublist_2 {
+  display: block;
+}
+
+.sublist_3 {
+  display: block;
 }
