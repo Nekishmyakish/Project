@@ -35,20 +35,33 @@
   align-items: center;
 }
 
+/* надо перепроверить: */
+
 .promo_list {
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-direction: column;  
 }
 
 .sublist_1 {
-  display: block;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .sublist_2 {
-  display: block;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .sublist_3 {
-  display: block;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.second_list {
+  display: flex;
+  justify-content: center;
 }
