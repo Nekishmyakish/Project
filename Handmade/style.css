@@ -9,26 +9,27 @@
 }
 
 /* ниже селектор. сложнее не будет в дальнейшем */
-.sub_upper_buttons > li {
+
+.sub_upper_buttons>li {
   margin: 15px;
 }
 
 /* ниже медиа-запрос */
+
 @media only screen and (max-width: 480px) {
   .upper_buttons {
     display: block;
   }
-
   .sub_upper_buttons {
     display: block;
   }
-
   body {
     background-color: green;
   }
 }
 
 /* делал ниже сам */
+
 .promo {
   display: flex;
   justify-content: space-between;
@@ -39,26 +40,38 @@
 
 .promo_list {
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  flex-direction: column;
 }
 
 .sublist_1 {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: red;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .sublist_2 {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: red;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .sublist_3 {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: red;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .second_list {
