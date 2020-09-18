@@ -10,7 +10,7 @@
 
 /* ниже селектор. сложнее не будет в дальнейшем */
 
-.sub_upper_buttons>li {
+.sub_upper_buttons > li {
   margin: 15px;
 }
 
@@ -36,40 +36,36 @@
   align-items: center;
 }
 
-/* надо перепроверить: */
-
 .promo_list {
   display: flex;
-  flex-direction: row;
   justify-content: center;
+  align-items: center;
+  background-color: #2516c7;
+  border: solid #2516c7;
+  border-radius: 5px;
+  width: fit-content;
+  height: 80px;
+  margin: auto;
 }
 
 .sublist_1 {
   display: flex;
-  flex-direction: row;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: red;
-  margin-left: 5px;
-  margin-right: 5px;
+  border-bottom: 2px solid red;
+  border-right: 2px solid white;
+  margin-right: 5px; /* бордеры нужно уменьшать паддингами */
 }
 
 .sublist_2 {
   display: flex;
-  flex-direction: row;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: red;
+  border-bottom: 2px solid red;
+  border-right: 2px solid white;
   margin-left: 5px;
   margin-right: 5px;
 }
 
 .sublist_3 {
   display: flex;
-  flex-direction: row;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: red;
+  border-bottom: 2px solid red;
   margin-left: 5px;
   margin-right: 5px;
 }
