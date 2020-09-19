@@ -1,17 +1,36 @@
+.body {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 .upper_buttons {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
+  /* margin-left: 10%;
+  margin-right: 10%; */
 }
 
 .sub_upper_buttons {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
 }
 
 /* ниже селектор. сложнее не будет в дальнейшем */
 
-.sub_upper_buttons > li {
+.sub_upper_buttons>li {
   margin: 15px;
+}
+
+.live {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: red;
+  height: 40px;
+  width: 100px;
 }
 
 /* ниже медиа-запрос */
@@ -28,17 +47,39 @@
   }
 }
 
-/* делал ниже сам */
+.available_now {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  width: 120px;
+  border: solid 1px white;
+  border-radius: 5px;
+}
 
 .promo {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.sign_up, .buy_now {
+  display: flex;
+  justify-content: center;
   align-items: center;
+  background-color: white;
+  color: blue;
+  height: 40px;
+  width: 100px;
+  margin: 10px;
+}
+
+.background_pic {
+  display: flex;
+  padding-left: 200px;
 }
 
 .promo_list {
   display: flex;
-  justify-content: center;
   align-items: center;
   background-color: #2516c7;
   border: solid #2516c7;
@@ -46,19 +87,27 @@
   width: fit-content;
   height: 80px;
   margin: auto;
+  list-style-type: none;
 }
 
 .sublist_1 {
   display: flex;
   border-bottom: 2px solid red;
-  border-right: 2px solid white;
-  margin-right: 5px; /* бордеры нужно уменьшать паддингами */
+  margin-right: 5px;
+  /* border-right: 2px solid white; должен быть отдельный элемент - выцепи из макета/
+  /* бордеры нужно уменьшать паддингами */
+}
+
+.play_video_pic, .book_reference, .store_front {
+  display: flex;
+  height: 25px;
+  align-self: center;
+  padding-right: 10px;
 }
 
 .sublist_2 {
   display: flex;
   border-bottom: 2px solid red;
-  border-right: 2px solid white;
   margin-left: 5px;
   margin-right: 5px;
 }
@@ -70,7 +119,28 @@
   margin-right: 5px;
 }
 
+.why_learn {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 250px;
+}
+
+.why_learn_text {
+  display: flex;
+  padding-left: 20px;
+}
+
+/* разберись в ширине сайта. походу нужно background_pic сначала все же добить */
+
 .second_list {
   display: flex;
   justify-content: center;
+  list-style-type: none;
+}
+
+.third_list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
 }
