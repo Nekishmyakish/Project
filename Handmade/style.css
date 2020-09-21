@@ -1,7 +1,8 @@
-.body {
-  margin-left: 100px;
-  margin-right: 100px;
+.container {
+  max-width: 1040px;
+  margin: 0 auto;
 }
+
 
 .upper_buttons {
   display: flex;
