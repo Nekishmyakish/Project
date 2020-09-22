@@ -3,13 +3,10 @@
   margin: 0 auto;
 }
 
-
 .upper_buttons {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  /* margin-left: 10%;
-  margin-right: 10%; */
 }
 
 .sub_upper_buttons {
@@ -120,14 +117,14 @@
   margin-right: 5px;
 }
 
-.why_learn {
+.why_learn, .gear {
   display: flex;
   justify-content: flex-start;
   padding-left: 200px;
   margin-top: 50px;
 }
 
-.why_learn_text {
+.why_learn_text, .gear_text {
   display: flex;
   padding-left: 55px;
 }
@@ -135,21 +132,15 @@
 .a_letter {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  margin-top: 50px;
-  margin-left: 120px;
+  margin-top: 30px;
+  margin-left: 80px;
 }
-
-.a_letter_text {
-  display: flex;
-  margin-left: none;
-}
-
-/* разберись в ширине сайта. походу нужно background_pic сначала все же добить */
 
 .second_list {
   display: flex;
+  /* flex-direction: column;
   justify-content: center;
+  align-items: center; попробуй разделить на 2 флекс-контейнера*/
   list-style-type: none;
 }
 
@@ -158,4 +149,24 @@
   justify-content: space-around;
   align-items: center;
   list-style-type: none;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.input_and_chatpic {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.fourth_list, li {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 220px;
 }
