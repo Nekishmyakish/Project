@@ -123,12 +123,26 @@
 .why_learn {
   display: flex;
   justify-content: flex-start;
-  padding-left: 250px;
+  padding-left: 200px;
+  margin-top: 50px;
 }
 
 .why_learn_text {
   display: flex;
-  padding-left: 20px;
+  padding-left: 55px;
+}
+
+.a_letter {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 50px;
+  margin-left: 120px;
+}
+
+.a_letter_text {
+  display: flex;
+  margin-left: none;
 }
 
 /* разберись в ширине сайта. походу нужно background_pic сначала все же добить */
