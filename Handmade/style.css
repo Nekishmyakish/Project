@@ -117,6 +117,11 @@
   margin-right: 5px;
 }
 
+.container_one {
+  background-color: white;
+  color: black;
+}
+
 .why_learn, .gear {
   display: flex;
   justify-content: flex-start;
@@ -138,9 +143,6 @@
 
 .second_list {
   display: flex;
-  /* flex-direction: column;
-  justify-content: center;
-  align-items: center; попробуй разделить на 2 флекс-контейнера*/
   list-style-type: none;
 }
 
@@ -155,7 +157,7 @@
 
 .input_and_chatpic {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
 }
 
@@ -170,3 +172,7 @@
   justify-content: space-around;
   margin-left: 220px;
 }
+
+/* переименовать название классов в более логичные */
+/* поиграть с контейнерами (цвет бэкграунда) */
+/* задать ширину блокам, использовать display:flex, один класс, все должно быть в контейнере. все элементы должны быть айтемами */
