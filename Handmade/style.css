@@ -1,4 +1,28 @@
-.container {
+.top_container {
+  background: blue;
+}
+
+.footer_container {
+  background: lightgray;
+}
+
+.container_upper_buttons {
+  background: blue;
+  color: white;
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.container_why_learn {
+  background-color: white;
+  color: black;
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.container_input_and_chatpic {
+  background-color: lightgray;
+  color: black;
   max-width: 1040px;
   margin: 0 auto;
 }
@@ -117,11 +141,6 @@
   margin-right: 5px;
 }
 
-.container_one {
-  background-color: white;
-  color: black;
-}
-
 .why_learn, .gear {
   display: flex;
   justify-content: flex-start;
@@ -174,5 +193,7 @@
 }
 
 /* переименовать название классов в более логичные */
+
 /* поиграть с контейнерами (цвет бэкграунда) */
+
 /* задать ширину блокам, использовать display:flex, один класс, все должно быть в контейнере. все элементы должны быть айтемами */
