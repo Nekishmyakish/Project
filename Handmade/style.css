@@ -165,12 +165,33 @@ body {
   margin-left: 80px;
 }
 
-.second_list {
+.details_list {
   display: flex;
-  list-style-type: none;
+  margin-top: 20px;
+  margin-bottom: 80px;
 }
 
-.third_list {
+.details_sublist_left {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  width: 50%;
+}
+
+.details_sublist_right {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  width: 50%;
+}
+
+.watch, .anchor, .store_front, .tuning, .daily_task, .exclamation {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.logos {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -185,20 +206,14 @@ body {
   align-items: center;
 }
 
-.fourth_list, li {
-  display: flex;
-  justify-content: center;
-  list-style-type: none;
-}
-
 .footer {
   display: flex;
   justify-content: space-around;
   margin-left: 220px;
 }
 
-/* переименовать название классов в более логичные */
-
-/* поиграть с контейнерами (цвет бэкграунда) */
-
-/* задать ширину блокам, использовать display:flex, один класс, все должно быть в контейнере. все элементы должны быть айтемами */
+.footer_list, li {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
