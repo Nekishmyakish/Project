@@ -176,6 +176,7 @@ body {
   flex-direction: column;
   list-style-type: none;
   width: 50%;
+  align-items: center;
 }
 
 .details_sublist_right {
@@ -191,6 +192,10 @@ body {
   margin: 20px;
 }
 
+.watch_pic, .anchor_pic, .store_front_pic, .tuning_pic, .daily_task_pic, .exclamation_pic {
+  padding-right: 20px;
+}
+
 .logos {
   display: flex;
   justify-content: space-around;
@@ -200,16 +205,35 @@ body {
   margin-bottom: 70px;
 }
 
-.input_and_chatpic {
+.input_general {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 50px;
+}
+
+.input_text {
+  height: 45px;
+  width: 400px;
+  border: 1px solid white;
+  box-sizing: border-box;
+  border-radius: 5px 0 0 5px;
+}
+
+.input_button {
+  background-color: blue;
+  color: white;
+  height: 45px;
+  width: 150px;
+  border: 1px solid blue;
+  border-radius: 0 5px 5px 0;
 }
 
 .footer {
   display: flex;
   justify-content: space-around;
-  margin-left: 220px;
+  margin-left: 25%;
+  color: darkgray;
 }
 
 .footer_list, li {
