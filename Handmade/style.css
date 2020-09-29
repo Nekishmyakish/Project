@@ -220,6 +220,10 @@ body {
   border-radius: 5px 0 0 5px;
 }
 
+.input_text:active, .input_text:focus {
+  outline: none;
+}
+
 .input_button {
   background-color: blue;
   color: white;
@@ -227,6 +231,10 @@ body {
   width: 150px;
   border: 1px solid blue;
   border-radius: 0 5px 5px 0;
+}
+
+.input_button:active, .input_button:focus {
+  outline: none;
 }
 
 .footer {
