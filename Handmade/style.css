@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Georgia, 'Times New Roman', Times, serif
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
 .top_container {
@@ -14,13 +14,13 @@ body {
 
 .container_upper_buttons {
   background: #575AFF;
-  color: white;
+  color: #F8F8F8;
   max-width: 1040px;
   margin: 0 auto;
 }
 
 .container_why_learn {
-  background-color: white;
+  background-color: #F8F8F8;
   color: black;
   max-width: 1040px;
   margin: 0 auto;
@@ -55,7 +55,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: #F8F8F8;
   color: red;
   height: 40px;
   width: 100px;
@@ -66,7 +66,7 @@ body {
   justify-content: center;
   padding: 10px;
   width: 120px;
-  border: solid 1px white;
+  border: solid 1px #F8F8F8;
   border-radius: 5px;
 }
 
@@ -80,7 +80,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color:#F8F8F8;
   color: #575AFF;
   height: 40px;
   width: 100px;
@@ -191,7 +191,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 50px;
+  padding-top: 70px;
 }
 
 .input_text {
@@ -223,7 +223,7 @@ body {
   display: flex;
   justify-content: space-around;
   margin-left: 25%;
-  color: darkgray;
+  color: #707070;
 }
 
 .footer_list, li {
