@@ -1,34 +1,26 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #F8F8F8;
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
 .top_container {
-  background: #575AFF;
+  background-color: #575AFF;
 }
 
 .footer_container {
-  background: lightgray;
+  background-color: lightgray;
 }
 
 .container_upper_buttons {
-  background: #575AFF;
+  background-color: #575AFF;
   color: #F8F8F8;
   max-width: 1040px;
   margin: 0 auto;
 }
 
 .container_why_learn {
-  background-color: #F8F8F8;
-  color: black;
-  max-width: 1040px;
-  margin: 0 auto;
-}
-
-.container_input_and_chatpic {
-  background-color: lightgray;
-  color: black;
   max-width: 1040px;
   margin: 0 auto;
 }
@@ -55,7 +47,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #F8F8F8;
+  background-color: white;
   color: red;
   height: 40px;
   width: 100px;
@@ -68,6 +60,7 @@ body {
   width: 120px;
   border: solid 1px #F8F8F8;
   border-radius: 5px;
+  color: #F8F8F8;
 }
 
 .promo {
@@ -76,11 +69,15 @@ body {
   align-items: flex-start;
 }
 
-.sign_up, .buy_now {
+.promo_message {
+  width: 700px;
+}
+
+.sign_up {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color:#F8F8F8;
+  background-color: white;
   color: #575AFF;
   height: 40px;
   width: 100px;
@@ -138,6 +135,11 @@ body {
 .why_learn_text, .gear_text {
   display: flex;
   padding-left: 55px;
+  color: #156EEC;
+}
+
+.learn_ui_p {
+  color: #FF7A6C;
 }
 
 .a_letter {
