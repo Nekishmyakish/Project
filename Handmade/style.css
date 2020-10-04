@@ -18,6 +18,7 @@ body {
   color: #F8F8F8;
   max-width: 1040px;
   margin: 0 auto;
+  padding-top: 20px;
 }
 
 .container_why_learn {
@@ -48,7 +49,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: white;
-  color: red;
+  color: #FE4C10;
   height: 40px;
   width: 100px;
 }
@@ -70,7 +71,12 @@ body {
 }
 
 .promo_message {
-  width: 700px;
+  line-height: 1.5;
+}
+
+.background_pic {
+  display: flex;
+  margin-bottom: 5px;
 }
 
 .sign_up {
@@ -79,15 +85,9 @@ body {
   align-items: center;
   background-color: white;
   color: #575AFF;
-  height: 40px;
-  width: 100px;
-  margin: 10px;
-}
-
-.background_pic {
-  display: flex;
-  padding-left: 200px;
-  margin-bottom: 5px;
+  height: 50px;
+  width: 120px;
+  margin-top: 50px;
 }
 
 .promo_list {
@@ -97,7 +97,7 @@ body {
   border-radius: 5px;
   padding: 0;
   width: fit-content;
-  height: 100px;
+  height: 130px;
   margin: auto;
   list-style-type: none;
   padding-left: 20px;
@@ -106,20 +106,43 @@ body {
 
 .sublist_1, .sublist_2, .sublist_3 {
   display: flex;
-  border-bottom: 2px solid red;
-  margin-left: 5px;
-  margin-right: 5px;
+  justify-content: flex-start;
+  border-bottom: 2px solid #FF6E6E;
+  margin-left: 10px;
+  margin-right: 10px;
   text-align: left;
-  width: 170px;
-  padding-bottom: 5px;
-  /* border-right: 2px solid white; должен быть отдельный элемент - выцепи из макета/
-  /* бордеры нужно уменьшать паддингами */
+  padding-bottom: 10px;
+}
+
+.sublist_3 {
+  width: 130px;
+}
+
+.sublist_li {
+  display: flex;
+  flex-direction: column;
+}
+
+.promo_list_top {
+  height: fit-content;
+  color: #8DBCFF;
+}
+
+.promo_list_middle {
+  height: fit-content;
+  font-size: 25pt;
+  font-weight: bold;
+}
+
+.promo_list_bot {
+  height: fit-content;
+  font-size: 10pt;
 }
 
 .play_video_pic, .book_reference_pic, .store_front_pic_small_padding {
   display: flex;
-  height: 25px;
-  width: 25px;
+  height: 30px;
+  width: 30px;
   align-self: center;
   padding-right: 10px;
   margin: 0;
@@ -138,8 +161,9 @@ body {
   color: #156EEC;
 }
 
-.learn_ui_p {
-  color: #FF7A6C;
+.learn_ui_p, .first_classs {
+  color: #FF9429;
+  font-weight: bold;
 }
 
 .a_letter {
@@ -147,6 +171,11 @@ body {
   justify-content: center;
   margin-top: 30px;
   margin-left: 80px;
+}
+
+.a_letter_pic {
+  width: 30px;
+  height: 30px;
 }
 
 .details_list {
@@ -178,6 +207,10 @@ body {
 
 .watch_pic, .anchor_pic, .store_front_pic, .tuning_pic, .daily_task_pic, .exclamation_pic {
   padding-right: 20px;
+}
+
+.our_courses {
+  color: #C2CACF;
 }
 
 .logos {
@@ -221,6 +254,10 @@ body {
   outline: none;
 }
 
+.footer_container {
+  background-color: #DBE2EBA0;
+}
+
 .footer {
   display: flex;
   justify-content: space-around;
@@ -232,6 +269,10 @@ body {
   display: flex;
   justify-content: center;
   list-style-type: none;
+}
+
+.footer_list>ul>li {
+  justify-content: left;
 }
 
 /* @media only screen and (max-width: 880px) {
